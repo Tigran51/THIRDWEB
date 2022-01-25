@@ -1,3 +1,18 @@
 mkdir token-minter
 cd token-minter
 touch minter.ts
+@3rdweb/sdk
+ethers
+dotenv
+typescript
+@types/node
+tslib
+npm init -y
+npm install @3rdweb/sdk ethers dotenv
+npm install --save-dev typescript @types/node ts-node tslib
+// Importing libraries
+import { ThirdwebSDK } from "@3rdweb/sdk";
+import { ethers } from "ethers";
+
+//Importing private key
+require('dotenv').config();
